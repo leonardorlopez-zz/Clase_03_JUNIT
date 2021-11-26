@@ -54,7 +54,7 @@ public void setUp() throws Exception {
 
 @After
 public void tearDown() throws Exception {
-	driver.quit();
+	driver.close();
 }
 
 @Test
